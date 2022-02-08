@@ -1,0 +1,123 @@
+body{
+    height: 100%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 2em;
+}
+.class1,.class2,.class3{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:red;
+    font-size:80px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    text-shadow: rgb(30, 15, 43) 1px 0 10px;
+}
+.class2{
+    top:160%;
+    text-shadow: rgb(30, 15, 43) 1px 0 10px;
+}
+.class3{
+    top:250%;
+    text-shadow: rgb(30, 15, 43) 1px 0 10px;
+}
+.parallax1{
+    background-image:url(/1.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1130px;
+    margin: -8px;
+}
+.parallax2{
+    background-image: url(/2.jpg);
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -8px;
+}
+
+.parallax3{
+    background-image: url("/3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    margin: -8px;
+}
+.parallax4{
+    background-image: url("https://c.tenor.com/GB2kusUamFYAAAAd/guts-berserk-guts.gif");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    margin: -8px;
+}
+.par1,.par2,.par3{
+    width: auto;
+    height: 280px;
+    background-color: #488286;
+    margin:-8px;
+    border-radius: 8px;
+    padding: 0.5px 20px 20px 0.5px;
+}
+.par2{
+    background-color: royalblue;
+    height: 210px;
+}
+.par3{
+    background-color:indigo;
+    height: 280px;
+}
+
+h2{
+    text-align: center;
+    font-size:25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-style:oblique;
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform:capitalize;
+    font-style: italic;
+}
+footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .d1,.d2,.d3{
+        font-size: auto;
+        color: #EFEFEF;
+    }
+    .par1,.par2,.par3{
+        height: auto;
+    }
+    .par1{
+        background-color: #3d72a4;
+    }
+    .par2{
+        background-color: #013220;
+    }
+    .par3{
+        background-color: #488286;
+    }
+    .class2{
+        top:210%;
+    }
+    .class3{
+        top:330%;
+    }
+  }
